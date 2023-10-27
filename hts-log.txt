@@ -1,0 +1,13 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 27 Oct 2023 12:23:23 at https://web.archive.org/web/20230803133516/https://mobilemoney.mtncameroon.net/MoMoWebAppMTNCameroon/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qiC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://web.archive.org/web/20230803133516/https://mobilemoney.mtncameroon.net/MoMoWebAppMTNCameroon/ -%L https://web.archive.org/web/20230803133516/https://mobilemoney.mtncameroon.net/MoMoWebAppMTNCameroon/ -O1 "C:\My Web Sites\momo" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+12:23:23	Error: 	Could not include URL list: https://web.archive.org/web/20230803133516/https://mobilemoney.mtncameroon.net/MoMoWebAppMTNCameroon/
+12:23:49	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20230803133346im_/https://mobilemoney.mtncameroon.net/MoMoWebAppMTNCameroon/images/otp_sec.png (from https://web.archive.org/web/20230803133346cs_/https://mobilemoney.mtncameroon.net/MoMoWebAppMTNCameroon/css/style.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 26 seconds : 14 links scanned, 12 files written (1049760 bytes overall), 9 files updated [267746 bytes received at 10297 bytes/sec], 785704 bytes transferred using HTTP compression in 10 files, ratio 30%, 2.7 requests per connection
+(2 errors, 0 warnings, 0 messages)

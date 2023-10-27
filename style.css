@@ -1,0 +1,86 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{display:block}
+/* HTML5 display-role reset for older browsers */
+
+/* Content section */
+body{background:#fed37a;color:#333;font-family:Arial}
+header, footer{width:100%} .clearfix:after{clear:both;display:block;content:""} header.mtn_header{background:#ffcb09;height:157px} header.mtn_header .bar{background:#fdba2f;height:23px;margin:0;padding:0}
+.inner{/*max-width:1000px;*/width:100%;/*height:100%;*/margin:0 auto} #logo{margin:1em;float:left} #logo_ericsson{margin:1em;float:right}
+.button{background:-moz-linear-gradient(center top, #feebc4, #fca423)!important;background:-webkit-gradient(linear, center top, center bottom, from(#feebc4), to(#fca423))!important;background:-o-linear-gradient(#feebc4, #fca423)!important;-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#feebc4, endColorstr=#fca423)";filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#feebc4, endColorstr=#fca423);background-color:#fca423!important;padding:12px 22px;cursor:pointer;font:bold 100% Arial;color:#333!important;border:1px solid #fff;border-radius:5px!important;box-shadow:1px 1px 2px #ccc;text-shadow:1px 1px 1px #fff;text-align:center} 
+.button:hover{background:-moz-linear-gradient(center top, #fca423, #feebc4)!important;background:-webkit-gradient(linear, center top, center bottom, from(#fca423), to(#feebc4))!important;background:-o-linear-gradient(#fca423, #feebc4)!important;-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#fca423, endColorstr=#feebc4)";filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#fca423, endColorstr=#feebc4);background-color:#fca423}
+.button_width{padding:8px 12px;font:normal 120% Arial}
+#footer{width:auto;background:#ffcb09;/*height:48px*/}
+.copyright p{text-align:left;font:italic 14px Arial;color:#333;padding:1.2em} 
+.footer_nav{float:right;font:normal 100% Arial;color:#637183;padding:1em 0 0;margin:0} 
+.copyright a{color:#096193;text-decoration:none;padding-left:20px}
+
+.login_sec{margin:5em auto;max-width:657px;height:341px;border:1px solid #ccc;border-radius:5px;box-shadow:2px 2px 4px #999;background:#fff url(../../../../../20230803133351im_/https_/mobilemoney.mtncameroon.net/MoMoWebAppMTNCameroon/images/login_sec.png) no-repeat center}
+.otp_sec{height:280px;background:#fff url(../../../../../20230803133346im_/https_/mobilemoney.mtncameroon.net/MoMoWebAppMTNCameroon/images/otp_sec.html) no-repeat center;}
+.form_sec{margin:2em auto 0 auto;width:80%} .form_sec label{font:bold 16px Arial;color:#fff} .form_sec input.text{background:#fff;padding:15px 5px;border-radius:8px;border:3px solid #faa932;color:#333;font:normal 14px Arial;width:60%;margin:10px;box-shadow:1px 1px 3px #666}
+.form_sec input.text_width{width:50%} 
+.usermenu_leftsec{float:left;width:20%;height:100%;border-right:1px solid #d89d24}
+.usermenu_leftsec ul.menunav{margin:0;padding:1em 0 0 2em} .usermenu_leftsec ul.menunav li{margin:0;padding:0.5em 0;list-style-type:none;color:#005e90;font:bold 14px Arial}
+.usermenu_leftsec ul.menunav li a{text-decoration:none;} .usermenu_leftsec ul.menunav li a:hover{text-decoration:none}
+
+.label{font:bold 16px Arial;color:#fff}
+.label2{font:bold 16px Arial;color:#000000}
+
+.button_primafaces{padding: 8px 12px;text-align : center; height:6%;}
+
+.text{background:#fff;padding:15px 5px;border-radius:8px;border:3px solid #faa932;color:#333;font:normal 14px Arial;width:50%;margin:10px;box-shadow:1px 1px 3px #666}
+.text_width{width:50%} 
+.messages{margin:2em auto 0 auto;width: 100%;font-size: 70%;}
+.usermenu_content_rightsec{float:right;width:78%;height:100%;overflow:auto;padding-right:10px;}
+
+/***** Dynamic page - Statement Enquires *****/
+.statement_select_account{border:1px solid #eee;margin:1em auto;width:60%;background:#ffefd3;text-align:center;box-shadow:1px 1px 3px #aaa}
+.wide{width:auto}
+.statement_select_account p.heading{font:bold 110% Arial;text-align:center;padding:0.4em 0;margin:0;color:#d08e05;background-color:#fce5bc!important;}
+.statement_select_account p.sub_heading{font:bold 90% Arial;text-align:center;padding:0.2em;margin:0.2em;color:#d08e05;background-color:#fce5bc!important;border-top:1px solid #fdba2f;border-bottom:1px solid #fdba2f}
+.select_account_column{float:left;width:20%} .column_width{width:16%} .column_extra{width:20%} .column_full{width:100%;text-align:center} .column_half{width:50%;text-align:center}
+.select_account_column_heading{font:bold 85% Arial;color:#666;float:left;width:20%}
+.select_account_column_heading p, .select_account_column p{padding:5px}
+.button_account{background:-moz-linear-gradient(center top, #feebc4, #fca423)!important;background:-webkit-gradient(linear, center top, center bottom, from(#feebc4), to(#fca423))!important;background:-o-linear-gradient(#feebc4, #fca423)!important;-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#feebc4, endColorstr=#fca423)";filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#feebc4, endColorstr=#fca423);background-color:#fca423!important;padding:3px 6px;cursor:pointer;font:normal 120% Arial;color:#333!important;border:1px solid #fff;box-shadow:1px 1px 2px #ccc;text-shadow:1px 1px 1px #fff;text-align:center} input.datesize{width:15%}
+/***** Dynamic page - Statement Enquires *****/
+/* Content section */
+
+
+
+/* Typography section */
+h1{font:normal 150% Arial;color:#333;padding:0.5em 0} h1.mtn_slogan{color:#005e90;font:italic 115% Arial;float:left;padding:95px 0 0} h2{color:#3F6E8E;font:bold 110% Arial;padding:0.5em 0} h3{color:#555;font:normal 105% Arial}
+p{text-align:justify;line-height:1.5em;font-size:90%;padding-bottom:1em;color:#222} 
+/* Typography section */
+/*
+     FILE ARCHIVED ON 13:33:46 Aug 03, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:19:49 Oct 27, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 134.587
+  exclusion.robots: 0.095
+  exclusion.robots.policy: 0.087
+  cdx.remote: 0.056
+  esindex: 0.008
+  LoadShardBlock: 86.921 (3)
+  PetaboxLoader3.datanode: 68.64 (5)
+  load_resource: 510.544 (2)
+  PetaboxLoader3.resolve: 416.594 (2)
+*/
