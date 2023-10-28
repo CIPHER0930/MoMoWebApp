@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MTN Cameroon Mobile Money Account Balance Check</title>
+</head>
+<body>
+<h1>MTN Cameroon Mobile Money Account Balance Check</h1>
+
+<form action="https://api.mtncameroon.com/mobilemoney/accountbalance" method="get">
+<input type="text" name="phone_number" placeholder="Phone Number">
+<input type="submit" value="Check Balance">
+</form>
+
+<script>
+// This script will handle the form submission and make the API call.
+
+var form = document.querySelector('form');
+
+form.addEventListener('submit', function(event) {
+ event.preventDefault();
+
+ // Get the form data.
+ var phone_number = form.elements['phone_number'].value;
+
+ // Make the API call.
+ fetch('https://api.mtncameroon.com/mobilemoney/accountbalance', {
+  method: 'GET',
+  headers: {
+   'Content-Type': 'application/json'
+  },
+  body: JSON.stringify({
+   phone_number: phone_number
+  })
+ })
+ .then(response => response.json())
+ .then(data => {
+  // Handle the API response.
+  if (data.status === 'success') {
+   // Balance check was successful.
+   alert('Your balance is: ' + data.balance);
+  } else {
+   // Balance check failed.
+   alert('Balance check failed. Please try again.');
+  }
+ })
+ .catch(error => {
+  // Handle the error.
+  alert('An error occurred. Please try again later.');
+ });
+});
+</script>
+</body>
+</html>
