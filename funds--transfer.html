@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="playback.js"></script>
+<script src="configuration.js"></script>
+<script src="other-functionalities.js"></script>
+<script src="web-archive-init.js"></script>
+<link rel="stylesheet" href="banner-styles.css">
+<link rel="stylesheet" href="icons.css">
+<link rel="stylesheet" href="web-archive-theme.css">
+<script src="primefaces.js"></script>
+<script src="jquery.js"></script>
+<script src="primefaces-libraries.js"></script>
+
+<script src="momo-transfer.js"></script>
+
+<script src="mtn-momo-api.js"></script>
+
+</head>
+<body>
+<header class="mtn_header">
+<div class="inner clearfix">
+<img src="mtn-mobilemoney-logo.png" alt="MTN MobileMoney Logo">
+<img src="ericsson-logo.png" alt="Ericsson Logo">
+</div>
+</header>
+<section>
+
+<style>
+.transfer-form {
+margin: 20px;
+padding: 10px;
+border: 1px solid #ccc;
+}
+
+.transfer-form label {
+display: block;
+margin-bottom: 10px;
+font-weight: bold;
+}
+
+.transfer-form input[type=text], .transfer-form input[type=number] {
+width: 100%;
+padding: 5px;
+margin-bottom: 10px;
+}
+
+.transfer-form button {
+padding: 10px 20px;
+background-color: #4CAF50;
+color: white;
+border: none;
+cursor: pointer;
+}
+
+.transfer-form button:hover {
+background-color: #45a049;
+}
+</style>
+
+<form class="transfer-form" onsubmit="return performMoMoTransfer(event)">
+<label for="sender">Sender:</label>
+<input type="text" id="sender" name="sender" required>
+
+<label for="recipient">Recipient:</label>
+<input type="text" id="recipient" name="recipient" required>
+
+<label for="amount">Amount:</label>
+<input type="number" id="amount" name="amount" required>
+
+<label for="pinCode">PIN Code:</label>
+<input type="password" id="pinCode" name="pinCode" required>
+
+<button type="submit">Transfer Funds</button>
+</form>
+
+<div id="transfer-status"></div>
+
+</section>
+
+</section>
+</body>
+</html>
